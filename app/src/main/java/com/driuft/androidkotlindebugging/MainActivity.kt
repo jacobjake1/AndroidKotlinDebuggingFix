@@ -30,8 +30,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun launchHelloWorldActivity() {
-        val i = Intent(404 as Context, HelloWorldActivity::class.java)
-        startActivity(i)
+        val intent = Intent(this, HelloWorldActivity::class.java)
+        startActivity(intent)
     }
 
     private fun launchNumSumActivity() {
